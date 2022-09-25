@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import UseCallback from './hooks/UseCallback'
 import UseContext from './hooks/UseContext'
+import UseCustomHook from './hooks/useCustomHook'
 import UseEffect from './hooks/UseEffect'
 import UseLayoutEffect from './hooks/UseLayoutEffect'
 import UseMemo from './hooks/UseMemo'
@@ -17,7 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <List /> */}
-    {/* <UstateWObj /> */}
     <UseState />
     <UseEffect />
     <UseContext />
@@ -26,5 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <UseMemo />
     <UseCallback />
     <UseLayoutEffect />
+    <UseCustomHook />
   </React.StrictMode>
 )
